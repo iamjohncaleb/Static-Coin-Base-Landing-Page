@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+          /* NAVIGATION BAR */
+.container{
+    
+    background-color: #fff;
+    height: 5%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    margin-bottom: 50px;
+    
+    border-bottom: 1px solid rgb(226, 224, 224);
+}
+
+.dropdown-content{
+    display:none;
+    border: 1px solid rgb(131, 118, 118);
+    width: 80px;
+}
+ul{
+    list-style-type: none;
+}
+ul:hover .dropdown-content{
+    display: block;
+}
+nav{
+    display: flex;
+    margin-left: 50px;
+}
+ul li{
+    display: inline;
+    color: #050f19;
+    font-weight: 500;
+    justify-content: space-around;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav-bar{
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.push{
+    margin-left: 70px;
+}
+
+button{
+    background-color: #0052ff;
+    padding: 12px 20px;
+    /* border-radius: 10px; */
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.sign:hover{
+    color: blue;
+}
+li:hover{
+    text-decoration: 1px solid rgb(20, 20, 223) underline;
+}
+li::after{
+    transition: 1s;
+    text-decoration: 5px solid rgb(20, 20, 223) underline;
+}
+     /* FIRST SECTION left content*/
+
+.first-section{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input[type=email]{
+    padding: 25px 40px;
+}
+.left-content button{
+    background-color: #0052ff ;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 24px 35px ;
+}
+.left-content h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.left-content p{
+    word-spacing: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.left-content a{
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* FIRST SECTION right content  */
+
+.right-content img{
+    margin-left: 150px;
+}
+
+/* SECOND SECTION */
+.second-section{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* margin-bottom: 20px */
+    position: relative;
+    /* bottom: 20px; */
+}
+ /* image div  */
+.image img{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+ /* image content  */
+.image-content{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.image-content h1{
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+.image-content p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.image-content button{
+    /* padding: ; */
+    border-radius: 50px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    cursor: pointer;
+    text-align: justify;
+    background-color: rgb(194, 160, 97);
+}
+ /* TABLE SECTION  */
+
+#table{
+    border: 1px solid #050f19;
+    border-collapse: collapse;
+    /* padding: 15px 20px; */
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.tr{
+    border: 1px solid #485461;
+    padding: 20px 30px;
+    /* width: 100%; */
+}
+.tr:hover{
+    background-color: whitesmoke;
+}
+th,td{
+    padding: 15px 30px;
+}
+.tr button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#table .push{
+    position: relative;
+    left: 50px;
+}
+#table .move{
+    margin-right: 60px;
+}
+
+ /* FOURTH SECTION  */
+.fourth-section{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.earn{
+    margin-top: 60px;
+}
+.earn h2{
+    font-size: 30px;
+}
+    /* AMOUNT TABLE  */
+.amount-table{
+    margin-left: 260px;
+}
+.amount a{
+    color:rgb(20, 20, 223);
+    
+}
+   /* FIFTH SECTION  */
+
+.fifth-section{
+    margin-top: 20px;
+}
+.fifth-section h1{
+    font-size: 40px;
+}
+.fifth-section h1,p{
+    text-align: center;
+}
+.fifth-section p{
+    font-size: 20px;
+}
+.main-target{
+    display: flex;
+}
+.manage{
+    /* display: inline-block; */
+    margin-left: 90px;
+}
+
+.image-right{
+    margin-left:100px;
+    margin-top: 20px;
+}
+    
+    /* SIXTH SRCTTION  */
+
+.sixth-section{
+    margin-left: 90px;
+    
+}
+.sixth-section h1{
+    font-size: 40px;
+}
+.sixth-section h1{
+    text-align: center ;
+}
+.sixth-section a{
+    color: #0052ff;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+
+.first-img, .second-img, .third-img{
+ text-align: center;
+}
+
+     /* SEVEN SECTION  */
+.seven-section{
+    background-color:#0052ff;
+    margin-top: 120px;
+}
+.blue-sec{
+    display: flex;
+    margin-left: 90px;
+    color: white;
+    justify-content: space-around;
+    
+}
+.billion, .country,.users{
+    margin-top: 80px;
+}
+
+     /* EIGHT section */
+.eight-section{
+    margin-top: 50px;
+}
+.eight-section h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+.start{
+    display: flex;
+    margin-left: 200px;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    
+}
+.how-to img,.line{ 
+    margin-left: 60px;
+}
+.line{
+    border: 1px solid rgb(199, 199, 199);
+    height: 1px;
+    width: 15%;
+    margin-top: 59px;
+}
+
+      /* NINE SECTION  */
+
+
+#nine{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.earn{
+    margin-top: 100px;
+}
+.nine-section {
+    background-color: rgb(240, 247, 252);
+
+}
+
+    /* FOOTER SECTION  */
+
+select{
+    padding: 5px 15px;
+}
+.footer-left {
+    /* display: inline; */
+    color: black;
+    margin-left: 80px;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+a{
+    color: rgb(119, 116, 116);;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+
+
+
